@@ -55,7 +55,7 @@ Regression Metrics: Test Data
 ## Insights
 
 ### Linear Regression
-![Lin Reg Imp Feat](https://github.com/rebeccabosneac/Prediction-of-Product-Sales/assets/144873201/67d72479-0e59-46ae-9860-39c785d76043)
+![Lin Reg Imp Feat](https://github.com/rebeccabosneac/Prediction-of-Product-Sales/assets/144873201/8c8f88f2-1700-414c-81ae-9ba5c3ba996a)
 
 - The top 3 most important features are:
     - Outlet Identifier OUT035
@@ -65,7 +65,7 @@ Regression Metrics: Test Data
 All three features are specific outlets that have the highest predicted sales and the most importance to sales.
 
 ### Random Forest
-![rf imp feat](https://github.com/rebeccabosneac/Prediction-of-Product-Sales/assets/144873201/e264eda7-dc91-4442-9802-97bc725af149)
+![rf imp feat](https://github.com/rebeccabosneac/Prediction-of-Product-Sales/assets/144873201/53c4c529-42da-42ef-9d82-427422089cdb)
 
 - The top 5 most important features are:
     - Item_MRP - An items maximum retail price has the most importance in this model for sales prediction
@@ -78,10 +78,9 @@ All three features are specific outlets that have the highest predicted sales an
 
     - Outlet_Type_Supermarket Type 3 - Of the supermarket types, type 3 has the most importance when it comes to sales predictions.
 
-## Final Recommendations
-
-- My final recommendation is the Random Forest Model.
-- The r2 and MAE scores are better for sales prediction and the most important features give us more information on what affects item sales the most.
+## Final Reccomendations
+- The final model I choose is the tuned Random Forest Model
+- This model has the best r2 and MAE scores and gives and detailed and varied list of most important features which is crucial in predicting the sales of items.
 
 ### For further information
 - Contact romo.becky5@gmail.com
